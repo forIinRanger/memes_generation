@@ -2,3 +2,5 @@ PyQt5
 PIL
 sqlite3
 datetime
+io
+sys
