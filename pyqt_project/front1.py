@@ -190,7 +190,6 @@ class MemesGeneration(QMainWindow, Ui_MainWindow):
         self.showq.clicked.connect(self.showw)
         self.choose_photoq.clicked.connect(self.photo_choose)
         self.saveq.clicked.connect(self.save_img)
-        # self.cancelq.clicked.connect(self.canc)
         self.error_string = ''
         self.con = sqlite3.connect("images.sqlite")
         self.cur = self.con.cursor()
