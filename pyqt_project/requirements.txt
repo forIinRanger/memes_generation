@@ -1,5 +1,5 @@
-PyQt5
-PIL
+PyQt5~=5.15.7
+PIL~=9.0.1
 sqlite3
 datetime
 io
